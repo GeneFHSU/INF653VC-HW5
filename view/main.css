@@ -1,0 +1,51 @@
+body{
+   max-width: 960px;
+   margin: auto !important;
+}
+
+hr{
+   margin-top: 4px;
+   margin-bottom: 4px;
+   border: 1px solid black;
+}
+
+.button {
+   background-color: orangered;
+   border: none;
+   color: white;
+   padding: 0.25rem;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 1rem;
+   margin: 1px 1px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.toDoTableForm {
+   border: 2px solid black;
+   overflow-y: scroll;
+   min-height: 400px;
+}
+table{
+   width: 100%;
+   border-collapse: separate;
+   border-spacing: 0px!important;
+   font-variant: normal;
+   text-align: left;
+}
+table td,th{
+
+   border-width: 1px;
+   border-style:solid;
+}
+
+h2, h3{
+   color:goldenrod;
+   margin-bottom: 0.5rem;
+   font-size: 2rem;
+}
+.copyright{
+   text-align: right;
+}
