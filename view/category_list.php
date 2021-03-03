@@ -29,7 +29,7 @@
 <form action="<?php echo $_SERVER['PHP_SELF']."?action=categoryList"; ?>" method="post">
     <input type="hidden" name="action" value="addCategory"/>
     <div>
-        Name:<input name="categoryName" type="text"/>
+        Name:<input name="categoryName" type="text" maxlength="20" required/>
         <button type="submit" class="button">Submit</button>
     </div>
 </form>
